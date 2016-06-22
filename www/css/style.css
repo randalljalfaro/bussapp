@@ -1,0 +1,35 @@
+/* Empty. Add your own CSS if you like */
+
+
+ion-content.card-background-page {
+    overflow: hidden;
+}
+ion-content.card-background-page a {
+    position: relative;
+    text-align: center;
+    float: left;
+    padding: 0.5em 1em;
+}
+ion-content.card-background-page a img{
+    width: 100%;
+    height: 100%;
+}
+ion-content.card-background-page .card-title {
+    position: absolute;
+    bottom: 20%;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 1.3em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+}
+ion-content.card-background-page .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    bottom: 10%;
+    text-align: left;
+    padding-left: 5%;
+    width: 100%;
+    color: #fff;
+}
