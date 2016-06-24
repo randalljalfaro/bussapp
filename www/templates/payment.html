@@ -1,0 +1,31 @@
+<ion-view view-title="Payment">
+  <ion-content>
+    <h1>{{data}}</h1>
+    <ion-list inset>
+        <label class="item item-input">
+          <input type="text" placeholder="Numero de tarjeta">
+        </label> 
+        <label class="item item-input">
+          <input type="text" placeholder="Mes">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="Año">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="CVV">
+        </label>
+        <div class="list" ng-controller="MyCtrl">
+
+          <div class="item item-input item-select">
+            <div class="input-label">
+            </div>
+            <select ng-model="country" ng-init="country=countries[47]" ng-options="country.name for country in countries"></select></div>
+          <div class="item item-input item-input">
+            <span class="input-label">Number</span>
+            <input type="text" ng-model="country.dial_code">
+          </div>
+          <p> {{ country | json}} </p>
+        </div> 
+    </ion-list>
+  </ion-content>
+</ion-view>
