@@ -1,4 +1,4 @@
-<ion-view view-title="Payment">
+<ion-view view-title="Metodo de Pago" class="payment">
   <ion-content>
     <h1>{{data}}</h1>
     <ion-list inset>
@@ -29,7 +29,7 @@
             </div>
             <select ng-model="country" ng-init="country=countries[47]" ng-options="country.name for country in countries"></select></div>
           <div class="item item-input item-input">
-            <span class="input-label">Number</span>
+            <span class="input-label">Numbero: </span>
             <input type="text" ng-model="country.dial_code">
           </div>
           <p> {{ country | json}} </p>

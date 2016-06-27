@@ -1,6 +1,6 @@
 <ion-view view-title="Rutas">
   <ion-content class="card-background-page">
-      <ion-card ng-repeat="playlist in playlists">
+      <ion-card class="col" ng-repeat="playlist in playlists">
           <a href="#/app/playlists/{{playlist.id}}">
             <img ng-src="{{playlist.image}}" />
             <div class="card-title">{{playlist.title}}</div>
