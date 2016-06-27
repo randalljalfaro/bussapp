@@ -1,5 +1,14 @@
+/*
+
+Custom styles for bussapp aplication
+
+*/
+@import "www/lib/ionic/scss/variables.scss";
+@import "www/lib/ionic/scss/items.scss";
+
+
 ion-content.card-background-page {
-  min-height: 1200px
+  min-height: 1200px;
   ion-card {
     position: relative;
     text-align: center;
@@ -16,7 +25,7 @@ ion-content.card-background-page {
     font-size: 1.0em;
     width: 100%;
     font-weight: bold;
-    color: #fff;
+    color: $light;
   }
 
   .card-subtitle {
@@ -25,7 +34,17 @@ ion-content.card-background-page {
     bottom: 10%;
     left: 10%;
     width: 100%;
-    color: #fff;
+    color: $light;
   }
 
+}
+
+/*
+
+Form styles
+
+*/
+
+.col {
+    float: left !important;
 }
