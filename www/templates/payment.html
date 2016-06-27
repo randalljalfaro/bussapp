@@ -1,39 +1,43 @@
 <ion-view view-title="Metodo de Pago" class="payment">
   <ion-content>
     <h1>{{data}}</h1>
-    <ion-list inset>
-        <div class="col">
-            <label class="item item-input">
-              <input type="text" placeholder="Numero de tarjeta">
-            </label> 
-        </div>
-        <div class="col col-25">
-            <label class="item item-input">
-              <input type="text" placeholder="Mes">
-            </label>
-        </div>
-        <div class="col col-25">
-            <label class="item item-input">
-              <input type="text" placeholder="Año">
-            </label>
-        </div>
-        <div class="col col-50">
-            <label class="item item-input">
-              <input type="text" placeholder="CVV">
-            </label>
-        </div>
-        <div class="list col" ng-controller="MyCtrl">
-
-          <div class="item item-input item-select">
-            <div class="input-label">
+      <form ng-submit="">
+        <ion-list inset>
+            <div class="col">
+                <label class="item item-input">
+                  <input type="text" placeholder="Numero de tarjeta">
+                </label> 
             </div>
-            <select ng-model="country" ng-init="country=countries[47]" ng-options="country.name for country in countries"></select></div>
-          <div class="item item-input item-input">
-            <span class="input-label">Numbero: </span>
-            <input type="text" ng-model="country.dial_code">
-          </div>
-          <p> {{ country | json}} </p>
-        </div> 
-    </ion-list>
+            <div class="col col-25">
+                <label class="item item-input">
+                  <input type="text" placeholder="Mes">
+                </label>
+            </div>
+            <div class="col col-25">
+                <label class="item item-input">
+                  <input type="text" placeholder="Año">
+                </label>
+            </div>
+            <div class="col col-50">
+                <label class="item item-input">
+                  <input type="text" placeholder="CVV">
+                </label>
+            </div>
+            <div class="list col" ng-controller="MyCtrl">
+
+              <div class="item item-input item-select">
+                <div class="input-label">
+                </div>
+                <select ng-model="country" ng-init="country=countries[47]" ng-options="country.name for country in countries"></select></div>
+              <div class="item item-input item-input">
+                <span class="input-label">Telefóno: </span>
+                <input type="text" ng-model="country.dial_code">
+              </div>
+              <label class="item save">
+                <button class="button button-block button-positive" type="submit">Guardar</button>
+              </label>
+            </div> 
+        </ion-list>
+      </form>
   </ion-content>
 </ion-view>

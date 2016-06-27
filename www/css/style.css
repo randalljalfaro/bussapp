@@ -35,7 +35,7 @@ ion-content.card-background-page {
   ion-content.card-background-page .card-subtitle {
     font-size: 1.0em;
     position: absolute;
-    bottom: 10%;
+    bottom: 8%;
     padding-left: 1em;
     width: 100%;
     color: #fff; }
@@ -44,8 +44,13 @@ ion-content.card-background-page {
   float: left; }
 
 .payment .list.col .item {
-  height: 47px;
   margin-bottom: 10px; }
+
+.payment .list.col .item-select {
+  height: 47px; }
+
+.payment .list.col .save {
+  border: 0; }
 
 .bar.bar-footer {
   background: transparent; }

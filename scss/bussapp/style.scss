@@ -65,7 +65,7 @@ ion-content.card-background-page {
   .card-subtitle {
     font-size: 1.0em;
     position: absolute;
-    bottom: 10%;
+    bottom: 8%;
     padding-left: 1em;
     width: 100%;
     color: $light;
@@ -81,8 +81,13 @@ ion-content.card-background-page {
     }
     .list.col {
         .item {
-            height: 47px;
             margin-bottom: 10px;
+        }
+        .item-select {
+            height: 47px;
+        }
+        .save {
+            border: 0;
         }
     }
 }
