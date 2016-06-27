@@ -1,0 +1,51 @@
+/*
+
+Custom styles for bussapp aplication
+
+*/
+.bar.bar-header {
+  background: #737373 !important; }
+  .bar.bar-header .title, .bar.bar-header .ion-navicon:before, .bar.bar-header .icon.ion-ios-arrow-back, .bar.bar-header .back-text {
+    color: #fff; }
+
+.menu.menu-left {
+  background: #1d073e; }
+  .menu.menu-left ion-item.item {
+    color: #fff;
+    background: transparent; }
+    .menu.menu-left ion-item.item a {
+      background: #1d073e; }
+
+ion-content.card-background-page {
+  min-height: 1200px; }
+  ion-content.card-background-page ion-card {
+    position: relative;
+    text-align: left; }
+    ion-content.card-background-page ion-card img {
+      width: 100%;
+      height: 100%; }
+  ion-content.card-background-page .card-title {
+    position: absolute;
+    bottom: 15%;
+    font-size: 1.0em;
+    width: 100%;
+    padding-left: 1em;
+    font-weight: bold;
+    color: #fff; }
+  ion-content.card-background-page .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    bottom: 10%;
+    padding-left: 1em;
+    width: 100%;
+    color: #fff; }
+
+.payment .col {
+  float: left; }
+
+.payment .list.col .item {
+  height: 47px;
+  margin-bottom: 10px; }
+
+.bar.bar-footer {
+  background: transparent; }

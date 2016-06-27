@@ -3,6 +3,7 @@
         "/Library/WebServer/Documents/ionic apps/bussapp/www/js/app.js",
         "/Library/WebServer/Documents/ionic apps/bussapp/platforms/ios/www/cordova-js-src/platform.js",
         "/Library/WebServer/Documents/ionic apps/bussapp/plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
-        "/Library/WebServer/Documents/ionic apps/bussapp/www/lib/ionic/js/ionic-angular.js"
+        "/Library/WebServer/Documents/ionic apps/bussapp/www/lib/ionic/js/ionic-angular.js",
+        "/Library/WebServer/Documents/ionic apps/bussapp/www/lib/ionic/js/ionic.bundle.js"
     ]
 }

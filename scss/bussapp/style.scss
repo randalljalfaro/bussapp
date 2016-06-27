@@ -7,10 +7,10 @@ Custom styles for bussapp aplication
 
 // Color Variables for bussapp
 
-// Buttons
+    // Buttons
 
-$purple: #1d073e;
-$grey: #737373;
+    $purple: #1d073e;
+    $grey: #737373;
 
 
 
@@ -18,6 +18,7 @@ $grey: #737373;
 
 
 // Header Bar styles
+
 .bar.bar-header {
     background: $grey !important;
     .title, .ion-navicon:before, .icon.ion-ios-arrow-back, .back-text {
@@ -25,8 +26,22 @@ $grey: #737373;
     }
 }
 
+// Side Menu Styles
 
-ion-content.card-background-page { // list of routes page styles
+.menu.menu-left {
+    background: $purple;
+    ion-item.item {
+        color: $light;
+        background: transparent;
+        a {
+            background: $purple;
+        }
+    }
+}
+
+// List of routes (Main page after login) styles
+
+ion-content.card-background-page { 
   min-height: 1200px;
   ion-card {
     position: relative;
@@ -70,4 +85,9 @@ ion-content.card-background-page { // list of routes page styles
             margin-bottom: 10px;
         }
     }
+}
+
+// Footer styles
+.bar.bar-footer {
+    background: transparent;
 }
