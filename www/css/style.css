@@ -17,7 +17,7 @@ Custom styles for bussapp aplication
       background: #1d073e; }
 
 ion-content.card-background-page {
-  min-height: 1200px; }
+  overflow: hidden; }
   ion-content.card-background-page ion-card {
     position: relative;
     text-align: left; }
@@ -26,7 +26,7 @@ ion-content.card-background-page {
       height: 100%; }
   ion-content.card-background-page .card-title {
     position: absolute;
-    bottom: 15%;
+    bottom: 20%;
     font-size: 1.0em;
     width: 100%;
     padding-left: 1em;
@@ -35,10 +35,27 @@ ion-content.card-background-page {
   ion-content.card-background-page .card-subtitle {
     font-size: 1.0em;
     position: absolute;
-    bottom: 8%;
+    bottom: 13%;
     padding-left: 1em;
     width: 100%;
     color: #fff; }
+  ion-content.card-background-page h2 {
+    position: absolute;
+    top: 0;
+    color: white;
+    text-align: center;
+    width: 100%; }
+  ion-content.card-background-page p {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    line-height: 47px;
+    width: 94px;
+    height: 47px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    background: #1d073e; }
 
 .payment .col {
   float: left; }
