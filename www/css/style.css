@@ -48,6 +48,7 @@ ion-content.card-background-page {
   ion-content.card-background-page p {
     position: absolute;
     bottom: 8%;
+    margin: 0;
     right: 5%;
     line-height: 47px;
     width: 94px;
@@ -68,6 +69,26 @@ ion-content.card-background-page {
 
 .payment .list.col .save {
   border: 0; }
+
+.payment .scan-button {
+  width: 47px;
+  height: 47px;
+  float: left;
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  margin: 0; }
+  .payment .scan-button .icon {
+    width: 100%;
+    height: 100%;
+    float: left; }
+  .payment .scan-button .scan {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 0 25%; }
 
 .bar.bar-footer {
   background: transparent; }
